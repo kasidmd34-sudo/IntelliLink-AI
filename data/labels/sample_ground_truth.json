@@ -1,0 +1,63 @@
+[
+  {
+    "sample_id": "INTL_SAMPLE_001",
+    "text": "During the reporting period, 420 metres of bituminous road work was completed between Km 12 and Km 18. Progress was affected by heavy rainfall.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Bituminous Road Work",
+          "quantity_completed": 420.0,
+          "unit": "m",
+          "location": "Km 12-18",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "heavy rainfall"
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_SAMPLE_002",
+    "text": "Subcontractor completed 1,500 m3 of Earthwork in Embankment at Km 22. Work halted due to unexpected labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 1500.0,
+          "unit": "m3",
+          "location": "Km 22",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "labour shortage"
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_SAMPLE_003",
+    "text": "Installed 2 nos of Reinforced Concrete Culvert near Km 15 bridge approach.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 2.0,
+          "unit": "nos",
+          "location": "Km 15",
+          "issues": []
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  }
+]

@@ -1,0 +1,4 @@
+sample_id,expected_task,matched_task,top1_hit,top3_hit,validation_passed
+INTL_SAMPLE_001,T04,T04,True,True,True
+INTL_SAMPLE_002,T02,T02,True,True,True
+INTL_SAMPLE_003,T06,T06,True,True,True

@@ -1,0 +1,1676 @@
+[
+  {
+    "sample_id": "INTL_DOC_001",
+    "project_id": "PROJECT_001",
+    "text": "3 nos precast concrete culvert units erected at Km 8. Electric line relocation is obstructing continuous progress.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "RCC box culvert",
+          "quantity_completed": 3.0,
+          "unit": "nos",
+          "location": "Km 8",
+          "issues": [
+            {
+              "category": "utility_relocation",
+              "original_text": "Electric line relocation is obstructing continuous progress.",
+              "evidence": "Electric line relocation is obstructing continuous progress."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "3",
+              "verbatim_text": "3 nos precast concrete culvert units erected at Km 8. Electric line relocation is obstructing continuous progress."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_002",
+    "project_id": "PROJECT_001",
+    "text": "Applied 4456 m of reflective thermoplastic road markings between Km 6-12. Pending safety clearance and local authority approval delayed operations.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "lane striping",
+          "quantity_completed": 4456.0,
+          "unit": "m",
+          "location": "Km 6-12",
+          "issues": [
+            {
+              "category": "approval_delay",
+              "original_text": "Pending safety clearance and local authority approval delayed operations.",
+              "evidence": "Pending safety clearance and local authority approval delayed operations."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4456",
+              "verbatim_text": "Applied 4456 m of reflective thermoplastic road markings between Km 6-12. Pending safety clearance and local authority approval delayed operations."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_003",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 16731 m2 of land along Km 36-39 for roadway expansion. Access road blockage delayed movement of dumpers.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Site Clearance & Grubbing",
+          "quantity_completed": 16731.0,
+          "unit": "m2",
+          "location": "Km 36-39",
+          "issues": [
+            {
+              "category": "site_access_problem",
+              "original_text": "Access road blockage delayed movement of dumpers.",
+              "evidence": "Access road blockage delayed movement of dumpers."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "16731",
+              "verbatim_text": "Contractor cleared 16731 m2 of land along Km 36-39 for roadway expansion. Access road blockage delayed movement of dumpers."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_004",
+    "project_id": "PROJECT_001",
+    "text": "Lane marking and striping completed for 2307 m along Km 18-20. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Thermoplastic Road Marking",
+          "quantity_completed": 2307.0,
+          "unit": "m",
+          "location": "Km 18-20",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2307",
+              "verbatim_text": "Lane marking and striping completed for 2307 m along Km 18-20. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_005",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 2056 m3 at Km 7-9. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "drainage layer",
+          "quantity_completed": 2056.0,
+          "unit": "m3",
+          "location": "Km 7-9",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2056",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 2056 m3 at Km 7-9. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_006",
+    "project_id": "PROJECT_001",
+    "text": "Structural RCC culvert installation completed: 1 nos at Km 30. Bitumen and cement delivery delay caused partial stoppage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 1.0,
+          "unit": "nos",
+          "location": "Km 30",
+          "issues": [
+            {
+              "category": "material_shortage",
+              "original_text": "Bitumen and cement delivery delay caused partial stoppage.",
+              "evidence": "Bitumen and cement delivery delay caused partial stoppage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1",
+              "verbatim_text": "Structural RCC culvert installation completed: 1 nos at Km 30. Bitumen and cement delivery delay caused partial stoppage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_007",
+    "project_id": "PROJECT_001",
+    "text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 40.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 2.0,
+          "unit": "nos",
+          "location": "Km 40",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2",
+              "verbatim_text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 40."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_008",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 913 m3 at Km 6-9.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "drainage layer",
+          "quantity_completed": 913.0,
+          "unit": "m3",
+          "location": "Km 6-9",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "913",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 913 m3 at Km 6-9."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_009",
+    "project_id": "PROJECT_001",
+    "text": "2716 m3 of earth movement and embankment construction completed in sector Km 24-28.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 2716.0,
+          "unit": "m3",
+          "location": "Km 24-28",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2716",
+              "verbatim_text": "2716 m3 of earth movement and embankment construction completed in sector Km 24-28."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_010",
+    "project_id": "PROJECT_001",
+    "text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 5. Access road blockage delayed movement of dumpers.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 2.0,
+          "unit": "nos",
+          "location": "Km 5",
+          "issues": [
+            {
+              "category": "site_access_problem",
+              "original_text": "Access road blockage delayed movement of dumpers.",
+              "evidence": "Access road blockage delayed movement of dumpers."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2",
+              "verbatim_text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 5. Access road blockage delayed movement of dumpers."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_011",
+    "project_id": "PROJECT_001",
+    "text": "Granular sub-base drainage layer laid for 1828 m3 from Km 36-39. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Sub-base Drainage Layer",
+          "quantity_completed": 1828.0,
+          "unit": "m3",
+          "location": "Km 36-39",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1828",
+              "verbatim_text": "Granular sub-base drainage layer laid for 1828 m3 from Km 36-39. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_012",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 771 m3 at Km 26-30. Electric line relocation is obstructing continuous progress.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "granular sub base",
+          "quantity_completed": 771.0,
+          "unit": "m3",
+          "location": "Km 26-30",
+          "issues": [
+            {
+              "category": "utility_relocation",
+              "original_text": "Electric line relocation is obstructing continuous progress.",
+              "evidence": "Electric line relocation is obstructing continuous progress."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "771",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 771 m3 at Km 26-30. Electric line relocation is obstructing continuous progress."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_013",
+    "project_id": "PROJECT_001",
+    "text": "Bituminous concrete wearing course laid over 492 m between Km 26-31.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "DBM laying",
+          "quantity_completed": 492.0,
+          "unit": "m",
+          "location": "Km 26-31",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "492",
+              "verbatim_text": "Bituminous concrete wearing course laid over 492 m between Km 26-31."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_014",
+    "project_id": "PROJECT_001",
+    "text": "Granular sub-base drainage layer laid for 2890 m3 from Km 38-43.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "GSB laying",
+          "quantity_completed": 2890.0,
+          "unit": "m3",
+          "location": "Km 38-43",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2890",
+              "verbatim_text": "Granular sub-base drainage layer laid for 2890 m3 from Km 38-43."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_015",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 7504 m2 of land along Km 4-6 for roadway expansion. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Site Clearance & Grubbing",
+          "quantity_completed": 7504.0,
+          "unit": "m2",
+          "location": "Km 4-6",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "7504",
+              "verbatim_text": "Contractor cleared 7504 m2 of land along Km 4-6 for roadway expansion. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_016",
+    "project_id": "PROJECT_001",
+    "text": "Bituminous concrete wearing course laid over 1158 m between Km 25-31.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Bituminous Road Work",
+          "quantity_completed": 1158.0,
+          "unit": "m",
+          "location": "Km 25-31",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1158",
+              "verbatim_text": "Bituminous concrete wearing course laid over 1158 m between Km 25-31."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_017",
+    "project_id": "PROJECT_001",
+    "text": "Completed grubbing and site preparation over an area of 17302 m2 at Km 8-14. Access road blockage delayed movement of dumpers.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "grubbing work",
+          "quantity_completed": 17302.0,
+          "unit": "m2",
+          "location": "Km 8-14",
+          "issues": [
+            {
+              "category": "site_access_problem",
+              "original_text": "Access road blockage delayed movement of dumpers.",
+              "evidence": "Access road blockage delayed movement of dumpers."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "17302",
+              "verbatim_text": "Completed grubbing and site preparation over an area of 17302 m2 at Km 8-14. Access road blockage delayed movement of dumpers."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_018",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 6915 m3 between Km 30-32.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 6915.0,
+          "unit": "m3",
+          "location": "Km 30-32",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "6915",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 6915 m3 between Km 30-32."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_019",
+    "project_id": "PROJECT_001",
+    "text": "6122 m3 of earth movement and embankment construction completed in sector Km 33-35.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "earth filling",
+          "quantity_completed": 6122.0,
+          "unit": "m3",
+          "location": "Km 33-35",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "6122",
+              "verbatim_text": "6122 m3 of earth movement and embankment construction completed in sector Km 33-35."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_020",
+    "project_id": "PROJECT_001",
+    "text": "5418 m3 of earth movement and embankment construction completed in sector Km 24-27.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 5418.0,
+          "unit": "m3",
+          "location": "Km 24-27",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "5418",
+              "verbatim_text": "5418 m3 of earth movement and embankment construction completed in sector Km 24-27."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_021",
+    "project_id": "PROJECT_001",
+    "text": "Lane marking and striping completed for 1159 m along Km 21-26. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "road painting",
+          "quantity_completed": 1159.0,
+          "unit": "m",
+          "location": "Km 21-26",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1159",
+              "verbatim_text": "Lane marking and striping completed for 1159 m along Km 21-26. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_022",
+    "project_id": "PROJECT_001",
+    "text": "Thermoplastic paint application: 4981 m executed at Km 6-8.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Thermoplastic Road Marking",
+          "quantity_completed": 4981.0,
+          "unit": "m",
+          "location": "Km 6-8",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4981",
+              "verbatim_text": "Thermoplastic paint application: 4981 m executed at Km 6-8."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_023",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 2352 m3 between Km 31-37.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "earth filling",
+          "quantity_completed": 2352.0,
+          "unit": "m3",
+          "location": "Km 31-37",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2352",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 2352 m3 between Km 31-37."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_024",
+    "project_id": "PROJECT_001",
+    "text": "Thermoplastic paint application: 4268 m executed at Km 13-17. Pending safety clearance and local authority approval delayed operations.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Thermoplastic Road Marking",
+          "quantity_completed": 4268.0,
+          "unit": "m",
+          "location": "Km 13-17",
+          "issues": [
+            {
+              "category": "approval_delay",
+              "original_text": "Pending safety clearance and local authority approval delayed operations.",
+              "evidence": "Pending safety clearance and local authority approval delayed operations."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4268",
+              "verbatim_text": "Thermoplastic paint application: 4268 m executed at Km 13-17. Pending safety clearance and local authority approval delayed operations."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_025",
+    "project_id": "PROJECT_001",
+    "text": "Bituminous concrete wearing course laid over 660 m between Km 8-11.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "asphalt paving",
+          "quantity_completed": 660.0,
+          "unit": "m",
+          "location": "Km 8-11",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "660",
+              "verbatim_text": "Bituminous concrete wearing course laid over 660 m between Km 8-11."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_026",
+    "project_id": "PROJECT_001",
+    "text": "Applied 1581 m of reflective thermoplastic road markings between Km 15-17. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Thermoplastic Road Marking",
+          "quantity_completed": 1581.0,
+          "unit": "m",
+          "location": "Km 15-17",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1581",
+              "verbatim_text": "Applied 1581 m of reflective thermoplastic road markings between Km 15-17. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_027",
+    "project_id": "PROJECT_001",
+    "text": "Granular sub-base drainage layer laid for 1474 m3 from Km 5-11.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "drainage layer",
+          "quantity_completed": 1474.0,
+          "unit": "m3",
+          "location": "Km 5-11",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1474",
+              "verbatim_text": "Granular sub-base drainage layer laid for 1474 m3 from Km 5-11."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_028",
+    "project_id": "PROJECT_001",
+    "text": "Structural RCC culvert installation completed: 4 nos at Km 37. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "pipe culvert",
+          "quantity_completed": 4.0,
+          "unit": "nos",
+          "location": "Km 37",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4",
+              "verbatim_text": "Structural RCC culvert installation completed: 4 nos at Km 37. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_029",
+    "project_id": "PROJECT_001",
+    "text": "4 nos precast concrete culvert units erected at Km 28. Electric line relocation is obstructing continuous progress.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 4.0,
+          "unit": "nos",
+          "location": "Km 28",
+          "issues": [
+            {
+              "category": "utility_relocation",
+              "original_text": "Electric line relocation is obstructing continuous progress.",
+              "evidence": "Electric line relocation is obstructing continuous progress."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4",
+              "verbatim_text": "4 nos precast concrete culvert units erected at Km 28. Electric line relocation is obstructing continuous progress."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_030",
+    "project_id": "PROJECT_001",
+    "text": "Constructed and cured 4 nos of Reinforced Concrete Box Culvert at Km 7. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 4.0,
+          "unit": "nos",
+          "location": "Km 7",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4",
+              "verbatim_text": "Constructed and cured 4 nos of Reinforced Concrete Box Culvert at Km 7. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_031",
+    "project_id": "PROJECT_001",
+    "text": "Applied 4456 m of reflective thermoplastic road markings between Km 29-32.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "road painting",
+          "quantity_completed": 4456.0,
+          "unit": "m",
+          "location": "Km 29-32",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4456",
+              "verbatim_text": "Applied 4456 m of reflective thermoplastic road markings between Km 29-32."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_032",
+    "project_id": "PROJECT_001",
+    "text": "Site clearance and grubbing of 6604 m2 was carried out between Km 29-35.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "grubbing work",
+          "quantity_completed": 6604.0,
+          "unit": "m2",
+          "location": "Km 29-35",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "6604",
+              "verbatim_text": "Site clearance and grubbing of 6604 m2 was carried out between Km 29-35."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_033",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 4978 m3 between Km 11-16.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 4978.0,
+          "unit": "m3",
+          "location": "Km 11-16",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4978",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 4978 m3 between Km 11-16."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_034",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 4198 m3 between Km 25-27. Electric line relocation is obstructing continuous progress.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "soil compaction",
+          "quantity_completed": 4198.0,
+          "unit": "m3",
+          "location": "Km 25-27",
+          "issues": [
+            {
+              "category": "utility_relocation",
+              "original_text": "Electric line relocation is obstructing continuous progress.",
+              "evidence": "Electric line relocation is obstructing continuous progress."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4198",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 4198 m3 between Km 25-27. Electric line relocation is obstructing continuous progress."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_035",
+    "project_id": "PROJECT_001",
+    "text": "Thermoplastic paint application: 2555 m executed at Km 32-35.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "lane striping",
+          "quantity_completed": 2555.0,
+          "unit": "m",
+          "location": "Km 32-35",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2555",
+              "verbatim_text": "Thermoplastic paint application: 2555 m executed at Km 32-35."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_036",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 5821 m2 of land along Km 21-23 for roadway expansion.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Site Clearance & Grubbing",
+          "quantity_completed": 5821.0,
+          "unit": "m2",
+          "location": "Km 21-23",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "5821",
+              "verbatim_text": "Contractor cleared 5821 m2 of land along Km 21-23 for roadway expansion."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_037",
+    "project_id": "PROJECT_001",
+    "text": "Applied 5160 m of reflective thermoplastic road markings between Km 11-13.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "lane striping",
+          "quantity_completed": 5160.0,
+          "unit": "m",
+          "location": "Km 11-13",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "5160",
+              "verbatim_text": "Applied 5160 m of reflective thermoplastic road markings between Km 11-13."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T05"
+  },
+  {
+    "sample_id": "INTL_DOC_038",
+    "project_id": "PROJECT_001",
+    "text": "1 nos precast concrete culvert units erected at Km 16. Pending safety clearance and local authority approval delayed operations.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 1.0,
+          "unit": "nos",
+          "location": "Km 16",
+          "issues": [
+            {
+              "category": "approval_delay",
+              "original_text": "Pending safety clearance and local authority approval delayed operations.",
+              "evidence": "Pending safety clearance and local authority approval delayed operations."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1",
+              "verbatim_text": "1 nos precast concrete culvert units erected at Km 16. Pending safety clearance and local authority approval delayed operations."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_039",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 11868 m2 of land along Km 40-42 for roadway expansion.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Site Clearance & Grubbing",
+          "quantity_completed": 11868.0,
+          "unit": "m2",
+          "location": "Km 40-42",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "11868",
+              "verbatim_text": "Contractor cleared 11868 m2 of land along Km 40-42 for roadway expansion."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_040",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 1477 m3 at Km 14-18.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "GSB laying",
+          "quantity_completed": 1477.0,
+          "unit": "m3",
+          "location": "Km 14-18",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1477",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 1477 m3 at Km 14-18."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_041",
+    "project_id": "PROJECT_001",
+    "text": "Bituminous concrete wearing course laid over 219 m between Km 21-23.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Bituminous Road Work",
+          "quantity_completed": 219.0,
+          "unit": "m",
+          "location": "Km 21-23",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "219",
+              "verbatim_text": "Bituminous concrete wearing course laid over 219 m between Km 21-23."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_042",
+    "project_id": "PROJECT_001",
+    "text": "Site clearance and grubbing of 13288 m2 was carried out between Km 35-38.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "land clearing",
+          "quantity_completed": 13288.0,
+          "unit": "m2",
+          "location": "Km 35-38",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "13288",
+              "verbatim_text": "Site clearance and grubbing of 13288 m2 was carried out between Km 35-38."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_043",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 2294 m3 at Km 19-22. Right of way clearance dispute at adjacent plot hindered earthwork.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Sub-base Drainage Layer",
+          "quantity_completed": 2294.0,
+          "unit": "m3",
+          "location": "Km 19-22",
+          "issues": [
+            {
+              "category": "land_issue",
+              "original_text": "Right of way clearance dispute at adjacent plot hindered earthwork.",
+              "evidence": "Right of way clearance dispute at adjacent plot hindered earthwork."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2294",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 2294 m3 at Km 19-22. Right of way clearance dispute at adjacent plot hindered earthwork."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_044",
+    "project_id": "PROJECT_001",
+    "text": "Constructed and cured 3 nos of Reinforced Concrete Box Culvert at Km 34.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 3.0,
+          "unit": "nos",
+          "location": "Km 34",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "3",
+              "verbatim_text": "Constructed and cured 3 nos of Reinforced Concrete Box Culvert at Km 34."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_045",
+    "project_id": "PROJECT_001",
+    "text": "Earthwork filling in embankment of 1876 m3 completed at Km 17-19. Pending safety clearance and local authority approval delayed operations.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 1876.0,
+          "unit": "m3",
+          "location": "Km 17-19",
+          "issues": [
+            {
+              "category": "approval_delay",
+              "original_text": "Pending safety clearance and local authority approval delayed operations.",
+              "evidence": "Pending safety clearance and local authority approval delayed operations."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1876",
+              "verbatim_text": "Earthwork filling in embankment of 1876 m3 completed at Km 17-19. Pending safety clearance and local authority approval delayed operations."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_046",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 6631 m3 between Km 22-25.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 6631.0,
+          "unit": "m3",
+          "location": "Km 22-25",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "6631",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 6631 m3 between Km 22-25."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_047",
+    "project_id": "PROJECT_001",
+    "text": "Granular sub-base drainage layer laid for 2234 m3 from Km 4-6. Right of way clearance dispute at adjacent plot hindered earthwork.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Sub-base Drainage Layer",
+          "quantity_completed": 2234.0,
+          "unit": "m3",
+          "location": "Km 4-6",
+          "issues": [
+            {
+              "category": "land_issue",
+              "original_text": "Right of way clearance dispute at adjacent plot hindered earthwork.",
+              "evidence": "Right of way clearance dispute at adjacent plot hindered earthwork."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2234",
+              "verbatim_text": "Granular sub-base drainage layer laid for 2234 m3 from Km 4-6. Right of way clearance dispute at adjacent plot hindered earthwork."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_048",
+    "project_id": "PROJECT_001",
+    "text": "7072 m3 of earth movement and embankment construction completed in sector Km 17-20. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 7072.0,
+          "unit": "m3",
+          "location": "Km 17-20",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "7072",
+              "verbatim_text": "7072 m3 of earth movement and embankment construction completed in sector Km 17-20. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_049",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 13938 m2 of land along Km 5-8 for roadway expansion.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "land clearing",
+          "quantity_completed": 13938.0,
+          "unit": "m2",
+          "location": "Km 5-8",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "13938",
+              "verbatim_text": "Contractor cleared 13938 m2 of land along Km 5-8 for roadway expansion."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_050",
+    "project_id": "PROJECT_001",
+    "text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 831 m at Km 9-11. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "asphalt paving",
+          "quantity_completed": 831.0,
+          "unit": "m",
+          "location": "Km 9-11",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "831",
+              "verbatim_text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 831 m at Km 9-11. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_051",
+    "project_id": "PROJECT_001",
+    "text": "4 nos precast concrete culvert units erected at Km 7. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 4.0,
+          "unit": "nos",
+          "location": "Km 7",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "4",
+              "verbatim_text": "4 nos precast concrete culvert units erected at Km 7. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_052",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 1203 m3 between Km 12-17.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "soil compaction",
+          "quantity_completed": 1203.0,
+          "unit": "m3",
+          "location": "Km 12-17",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1203",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 1203 m3 between Km 12-17."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  },
+  {
+    "sample_id": "INTL_DOC_053",
+    "project_id": "PROJECT_001",
+    "text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 16. Progress was severely affected by heavy rainfall and waterlogging.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Reinforced Concrete Culvert",
+          "quantity_completed": 2.0,
+          "unit": "nos",
+          "location": "Km 16",
+          "issues": [
+            {
+              "category": "heavy_rainfall",
+              "original_text": "Progress was severely affected by heavy rainfall and waterlogging.",
+              "evidence": "Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2",
+              "verbatim_text": "Constructed and cured 2 nos of Reinforced Concrete Box Culvert at Km 16. Progress was severely affected by heavy rainfall and waterlogging."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T06"
+  },
+  {
+    "sample_id": "INTL_DOC_054",
+    "project_id": "PROJECT_001",
+    "text": "During the reporting period, 1142 metres of bituminous road work was completed between Km 15-18. Work was slowed down due to seasonal labour shortage.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "DBM laying",
+          "quantity_completed": 1142.0,
+          "unit": "m",
+          "location": "Km 15-18",
+          "issues": [
+            {
+              "category": "labour_shortage",
+              "original_text": "Work was slowed down due to seasonal labour shortage.",
+              "evidence": "Work was slowed down due to seasonal labour shortage."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1142",
+              "verbatim_text": "During the reporting period, 1142 metres of bituminous road work was completed between Km 15-18. Work was slowed down due to seasonal labour shortage."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_055",
+    "project_id": "PROJECT_001",
+    "text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 342 m at Km 22-26. Pending safety clearance and local authority approval delayed operations.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Bituminous Road Work",
+          "quantity_completed": 342.0,
+          "unit": "m",
+          "location": "Km 22-26",
+          "issues": [
+            {
+              "category": "approval_delay",
+              "original_text": "Pending safety clearance and local authority approval delayed operations.",
+              "evidence": "Pending safety clearance and local authority approval delayed operations."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "342",
+              "verbatim_text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 342 m at Km 22-26. Pending safety clearance and local authority approval delayed operations."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_056",
+    "project_id": "PROJECT_001",
+    "text": "During the reporting period, 256 metres of bituminous road work was completed between Km 35-39.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "road asphalt laying",
+          "quantity_completed": 256.0,
+          "unit": "m",
+          "location": "Km 35-39",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "256",
+              "verbatim_text": "During the reporting period, 256 metres of bituminous road work was completed between Km 35-39."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_057",
+    "project_id": "PROJECT_001",
+    "text": "Drainage blanket and sub-base work progress: 2943 m3 at Km 3-5.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Sub-base Drainage Layer",
+          "quantity_completed": 2943.0,
+          "unit": "m3",
+          "location": "Km 3-5",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "2943",
+              "verbatim_text": "Drainage blanket and sub-base work progress: 2943 m3 at Km 3-5."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T03"
+  },
+  {
+    "sample_id": "INTL_DOC_058",
+    "project_id": "PROJECT_001",
+    "text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 436 m at Km 39-45. Access road blockage delayed movement of dumpers.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "DBM laying",
+          "quantity_completed": 436.0,
+          "unit": "m",
+          "location": "Km 39-45",
+          "issues": [
+            {
+              "category": "site_access_problem",
+              "original_text": "Access road blockage delayed movement of dumpers.",
+              "evidence": "Access road blockage delayed movement of dumpers."
+            }
+          ],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "436",
+              "verbatim_text": "Dense Bituminous Macadam (DBM) asphalt laying executed for 436 m at Km 39-45. Access road blockage delayed movement of dumpers."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T04"
+  },
+  {
+    "sample_id": "INTL_DOC_059",
+    "project_id": "PROJECT_001",
+    "text": "Contractor cleared 16253 m2 of land along Km 34-40 for roadway expansion.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Site Clearance & Grubbing",
+          "quantity_completed": 16253.0,
+          "unit": "m2",
+          "location": "Km 34-40",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "16253",
+              "verbatim_text": "Contractor cleared 16253 m2 of land along Km 34-40 for roadway expansion."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T01"
+  },
+  {
+    "sample_id": "INTL_DOC_060",
+    "project_id": "PROJECT_001",
+    "text": "Subgrade soil compaction and embankment earthwork completed: 1573 m3 between Km 24-29.",
+    "expected_extraction": {
+      "project_name": "NH-48 Corridor Expansion",
+      "activities": [
+        {
+          "activity_name": "Earthwork in Embankment",
+          "quantity_completed": 1573.0,
+          "unit": "m3",
+          "location": "Km 24-29",
+          "issues": [],
+          "source_evidence": [
+            {
+              "field_name": "quantity_completed",
+              "extracted_value": "1573",
+              "verbatim_text": "Subgrade soil compaction and embankment earthwork completed: 1573 m3 between Km 24-29."
+            }
+          ]
+        }
+      ]
+    },
+    "expected_task_id": "T02"
+  }
+]

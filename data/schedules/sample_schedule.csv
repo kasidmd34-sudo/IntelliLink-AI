@@ -1,0 +1,7 @@
+project_id,task_id,task_name,work_package,location_scope,unit,planned_quantity,previous_completed_quantity,aliases
+PROJECT_001,T01,Site Clearance & Grubbing,WP-01 Earthworks,Km 0-50,m2,50000,45000,land clearing;grubbing;site prep
+PROJECT_001,T02,Earthwork in Embankment,WP-01 Earthworks,Km 0-50,m3,120000,75000,embankment filling;soil compaction;earth filling
+PROJECT_001,T03,Sub-base Drainage Layer,WP-02 Pavement,Km 10-30,m3,30000,18000,drainage blanket;GSB;granular sub base
+PROJECT_001,T04,Bituminous Road Work,WP-02 Pavement,Km 10-30,m,6000,3780,asphalt laying;dense bituminous macadam;DBM;BC;bituminous concrete;paving
+PROJECT_001,T05,Thermoplastic Road Marking,WP-03 Furniture,Km 0-50,m,50000,10000,lane marking;road paint;striping
+PROJECT_001,T06,Reinforced Concrete Culvert,WP-04 Structures,Km 15,nos,12,8,box culvert;RCC culvert;pipe culvert
